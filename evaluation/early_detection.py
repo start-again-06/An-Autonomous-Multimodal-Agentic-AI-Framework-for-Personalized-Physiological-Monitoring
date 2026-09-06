@@ -1,0 +1,1 @@
+def detection_lead_time(event_onset, detection_time): return event_onset-detection_time

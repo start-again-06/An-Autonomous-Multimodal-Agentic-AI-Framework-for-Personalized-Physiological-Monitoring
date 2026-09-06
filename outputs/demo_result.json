@@ -1,0 +1,44 @@
+{
+  "timestamp": 540.0,
+  "agents": "COMPLETE",
+  "risk": {
+    "risk_probability": 0.012438613820771324,
+    "predicted_class": 0,
+    "risk_level": "Normal",
+    "predictive_mean": 0.012438613820771324,
+    "predictive_variance": 0.00017178914027778677,
+    "epistemic_uncertainty": 0.00017178914027778677,
+    "aleatoric_uncertainty": 0.003839888562362759,
+    "total_uncertainty": 0.0040116777026405455,
+    "confidence": 0.9959883222973595
+  },
+  "explanation": {
+    "risk_level": "Normal",
+    "risk_probability": 0.012438613820771324,
+    "confidence": 0.9959883222973595,
+    "top_contributing_modalities": [
+      "acc"
+    ],
+    "baseline_deviation": 5.921189464667501e-16,
+    "uncertainty": 0.0040116777026405455,
+    "text": "Normal was associated with a baseline deviation of 0.00; the most reliable modality was acc. This is a simulated research event, not a clinical diagnosis."
+  },
+  "fusion": {
+    "weights": {
+      "ecg": 0.31263592346427244,
+      "ppg": 0.3151420320115465,
+      "acc": 0.3722220400463602
+    },
+    "quality_weighted_mean": 0.3333333318407264
+  },
+  "temporal": {
+    "embedding": [
+      0.6101639859014768,
+      0.45075120568877064,
+      0.003854747641744292
+    ],
+    "deviation_indicator": -0.6063092382597325
+  },
+  "action": "WAIT",
+  "monitoring_frequency": "low"
+}

@@ -1,0 +1,11 @@
+name: ampa-hr
+channels: [conda-forge, pytorch]
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - pyyaml
+  - pytorch

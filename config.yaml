@@ -1,0 +1,20 @@
+seed: 42
+synthetic:
+  subjects: 15
+  duration_minutes: 10
+  sampling_rate: 100
+  events_per_subject: 1
+  precursor_seconds: 60
+  min_duration_seconds: 60
+  max_duration_seconds: 120
+  artifact_probability: 0.03
+  missing_probability: 0.02
+model:
+  hidden_dim: 64
+  dropout: 0.15
+  context_windows: 8
+orchestrator:
+  uncertainty_threshold: 0.12
+  high_risk_threshold: 0.75
+  elevated_threshold: 0.55
+  mild_threshold: 0.30

@@ -1,0 +1,1 @@
+def architecture(): return 'Sense → Assess → Reason → Act → Verify'

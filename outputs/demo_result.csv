@@ -1,0 +1,2 @@
+risk_probability,predicted_class,risk_level,predictive_mean,predictive_variance,epistemic_uncertainty,aleatoric_uncertainty,total_uncertainty,confidence,action,deviation
+0.012438613820771324,0,Normal,0.012438613820771324,0.00017178914027778677,0.00017178914027778677,0.003839888562362759,0.0040116777026405455,0.9959883222973595,WAIT,5.921189464667501e-16
