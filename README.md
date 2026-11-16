@@ -40,9 +40,9 @@ reliability, and chooses what to do next based on state and confidence.
 
 The overall flow runs from raw wearable data to a risk alert, with an explanation and a feedback loop back to sensing.
 
-![AMPA-HR architecture showing the eight agents across the sense, assess, reason, act and verify stages](docs/images/architecture.png)
+![AMPA-HR architecture showing the eight agents across the sense, assess, reason, act and verify stages](images/Architecture_INDICON_215KB.png)
 
-*Figure 1. AMPA-HR architecture, from the paper.*
+*Figure 1. AMPA-HR architecture*
 
 The diagram below shows the same flow in Mermaid, so it renders on GitHub and can be edited easily.
 
@@ -209,7 +209,7 @@ AMPA-HR also has the lowest false-alarm rate reported, at 0.4 alarms per hour.
 | Static personalised (B) | 0.841 ± 0.041 | 0.089 |
 | **Adaptive agentic (C)** | **0.917 ± 0.032** | **0.041** |
 
-![Risk trajectory for a sample subject, showing the personalised baseline, the risk score and the adverse-event onset at 90 minutes](docs/images/risk-trajectory.png)
+![Risk trajectory for a sample subject, showing the personalised baseline, the risk score and the adverse-event onset at 90 minutes](images/Risk_Trajectory.png)
 
 *Figure 2. Risk trajectory for a sample subject. The risk score rises about 15 minutes before the simulated event, which is the early warning the lead-time metric measures.*
 
@@ -222,7 +222,7 @@ AMPA-HR also has the lowest false-alarm rate reported, at 0.4 alarms per hour.
 
 ## Ablation and robustness
 
-![Ablation study bar chart showing the AUROC drop when each component is removed](docs/images/ablation-study.png)
+![Ablation study bar chart showing the AUROC drop when each component is removed](images/Ablation_Study.png)
 
 *Figure 3. AUROC when each component is removed. The dashed line marks the full model at 0.942.*
 
