@@ -9,7 +9,7 @@ fixed pipeline, it uses eight specialised agents coordinated by an orchestrator 
 > estimates from research data, not diagnoses.
 
 Paper: *An Autonomous Multimodal Agentic AI Framework for Personalized Physiological Monitoring and Early Health-Risk
-Assessment Using Wearable Sensors*, IEEE INDICON 2026, Chennai.  
+Assessment Using Wearable Sensors*, IEEE INDICON 2026, Chennai.
 Authors: Rithanya Raj (IIITDM Kancheepuram, ECE) and Anjan Mahapatra (IIITDM Kancheepuram, Mechanical Engineering).
 
 ## Contents
@@ -39,6 +39,12 @@ reliability, and chooses what to do next based on state and confidence.
 ## Architecture
 
 The overall flow runs from raw wearable data to a risk alert, with an explanation and a feedback loop back to sensing.
+
+![AMPA-HR architecture showing the eight agents across the sense, assess, reason, act and verify stages](docs/images/architecture.png)
+
+*Figure 1. AMPA-HR architecture, from the paper.*
+
+The diagram below shows the same flow in Mermaid, so it renders on GitHub and can be edited easily.
 
 ```mermaid
 flowchart LR
@@ -203,6 +209,10 @@ AMPA-HR also has the lowest false-alarm rate reported, at 0.4 alarms per hour.
 | Static personalised (B) | 0.841 ± 0.041 | 0.089 |
 | **Adaptive agentic (C)** | **0.917 ± 0.032** | **0.041** |
 
+![Risk trajectory for a sample subject, showing the personalised baseline, the risk score and the adverse-event onset at 90 minutes](docs/images/risk-trajectory.png)
+
+*Figure 2. Risk trajectory for a sample subject. The risk score rises about 15 minutes before the simulated event, which is the early warning the lead-time metric measures.*
+
 ### Agentic efficiency
 
 - Orchestrator accuracy: 94.2%
@@ -211,6 +221,10 @@ AMPA-HR also has the lowest false-alarm rate reported, at 0.4 alarms per hour.
 - Inference latency: 47 ms
 
 ## Ablation and robustness
+
+![Ablation study bar chart showing the AUROC drop when each component is removed](docs/images/ablation-study.png)
+
+*Figure 3. AUROC when each component is removed. The dashed line marks the full model at 0.942.*
 
 Removing one component at a time from the full model (AUROC 0.942):
 
@@ -274,4 +288,6 @@ The paper's reference list covers wearable sensing, multimodal deep learning, fo
 signals, neural ODEs for personalised monitoring, multi-agent systems in healthcare, and the PPG-DaLiA dataset
 (Reiss and Stricker). See the paper's bibliography for full entries.
 
+## License
 
+To be decided by the authors.
