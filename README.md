@@ -287,7 +287,3 @@ split described in [Experimental setup](#experimental-setup).
 The paper's reference list covers wearable sensing, multimodal deep learning, foundation models for physiological
 signals, neural ODEs for personalised monitoring, multi-agent systems in healthcare, and the PPG-DaLiA dataset
 (Reiss and Stricker). See the paper's bibliography for full entries.
-
-## License
-
-To be decided by the authors.
