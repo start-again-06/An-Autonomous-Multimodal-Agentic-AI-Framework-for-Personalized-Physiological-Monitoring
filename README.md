@@ -9,7 +9,7 @@ fixed pipeline, it uses eight specialised agents coordinated by an orchestrator 
 > estimates from research data, not diagnoses.
 
 Paper: *An Autonomous Multimodal Agentic AI Framework for Personalized Physiological Monitoring and Early Health-Risk
-Assessment Using Wearable Sensors*, IEEE INDICON 2026, Chennai.
+Assessment Using Wearable Sensors*, IEEE INDICON 2026, Chennai.  
 Authors: Rithanya Raj (IIITDM Kancheepuram, ECE) and Anjan Mahapatra (IIITDM Kancheepuram, Mechanical Engineering).
 
 ## Contents
